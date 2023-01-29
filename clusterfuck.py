@@ -12,7 +12,7 @@ def generateHexData(file_path):
 if __name__ == "__main__":
 
     if len(sys.argv) == 1:
-        print(f"usage: python3 {sys.argv[0]} input_binary output.c")
+        print(f"usage: python3 {sys.argv[0]} ./input_binary output.c")
         exit()
         
     file_path = sys.argv[1]
